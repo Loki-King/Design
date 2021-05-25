@@ -3,6 +3,7 @@ package observe;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class SubscriptionSubject implements Subject {
     //储存订阅公众号的微信用户
     private List<Observer> weixinUserlist = new ArrayList<Observer>();

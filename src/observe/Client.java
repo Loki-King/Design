@@ -1,6 +1,7 @@
 package observe;
 
 public class Client {
+
     public static void main(String[] args) {
         SubscriptionSubject mSubscriptionSubject=new SubscriptionSubject();
         //创建微信用户
